@@ -55,7 +55,7 @@ fn main() {
 
     match args.explain {
         true => println!(
-            "Explanation: {}",
+            "Explanation: \n{}",
             status_codes::StatusCodes::get_explanation(status)
         ),
         _ => (),
